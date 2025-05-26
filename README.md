@@ -25,22 +25,34 @@ This is a data analytics portfolio project showcasing my ability to work with re
 
 ## 📁 Project Structure
 bank-churn-analysis/
+
 ├── data/
 
 │ └── BankChurners.csv
 
 ├── notebooks/
+
 │ └── eda_churn.ipynb
+
 ├── sql/
+
 │ └── churn_queries.sql
+
 ├── excel/
 │ └── churn_summary.xlsx
+
 ├── dashboard/
+
 │ └── churn_dashboard.pbix
+
 ├── images/
+
 │ └── dashboard_screenshot.png
+
 ├── README.md
+
 └── index.html
+
 
 ---
 
