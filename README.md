@@ -76,7 +76,7 @@ bank-churn-analysis/
 
 ## 🖥️ Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard_screenshot.png)
+[Dashboard Screenshot](images/dashboard_screenshot.png)
 
 > 📌 Interactive version available in the `dashboard/` folder or linked below.
 
