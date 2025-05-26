@@ -26,7 +26,9 @@ This is a data analytics portfolio project showcasing my ability to work with re
 ## 📁 Project Structure
 bank-churn-analysis/
 ├── data/
+
 │ └── BankChurners.csv
+
 ├── notebooks/
 │ └── eda_churn.ipynb
 ├── sql/
