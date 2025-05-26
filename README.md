@@ -92,7 +92,7 @@ bank-churn-analysis/
 
 ## 🤝 Let's Connect
  
-If you found this project interesting, feel free to [connect on LinkedIn](https://linkedin.com/in/yourusername) or [drop me a message](mailto:your@email.com)!
+If you found this project interesting, feel free to [connect on LinkedIn](https://linkedin.com/in/erickwijanarko) or [drop me a message](mailto:ewijanarko@gmail.com)!
 
 ---
 
