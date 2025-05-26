@@ -84,8 +84,8 @@ bank-churn-analysis/
 
 ## 🔗 Live Links
 
-- 🔍 [GitHub Repository](https://github.com/yourusername/bank-churn-analysis)
-- 🌐 [GitHub Pages (Portfolio Site)](https://yourusername.github.io/bank-churn-analysis)
+- 🔍 [GitHub Repository](https://github.com/ewijanarko/bank-churn-analysis)
+- 🌐 [GitHub Pages (Portfolio Site)](https://ewijanarko.github.io/bank-churn-analysis)
 - 📊 [Power BI Dashboard (Public Link)](https://app.powerbi.com/...) *(if applicable)*
 
 ---
