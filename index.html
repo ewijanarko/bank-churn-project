@@ -61,9 +61,209 @@
       <li> <strong>Total Columns:</strong> 21</li>
     </ul>
 
-
-
+    <!--Start of Table-->
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .icon {
+            width: 24px;
+            height: 24px;
+            background-color: #4CAF50;
+            border-radius: 3px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .metrics-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .metrics-icon {
+            width: 20px;
+            height: 20px;
+            background-color: #2196F3;
+            border-radius: 2px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .metrics-title {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #2c2c2c;
+            color: white;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        th {
+            background-color: #1a1a1a;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: bold;
+            border-bottom: 1px dotted #555;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px dotted #555;
+            vertical-align: top;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .column-name {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: #87CEEB;
+        }
+        
+        .description-text {
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">🍀</div>
+            <div class="title">Column Classification</div>
+        </div>
+        
+        <div class="metrics-header">
+            <div class="metrics-icon">M</div>
+            <div class="metrics-title">Metrics (Quantitative Variables)</div>
+        </div>
+        
+        <div class="description">
+            These are numerical values used for analysis and modeling:
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="column-name">CLIENTNUM</td>
+                    <td class="description-text">Unique customer identifier</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Customer_Age</td>
+                    <td class="description-text">Age of the customer</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Dependent_count</td>
+                    <td class="description-text">Number of dependents</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Months_on_book</td>
+                    <td class="description-text">Duration of relationship with the bank (in months)</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Total_Relationship_Count</td>
+                    <td class="description-text">Number of products held by the customer</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Months_Inactive_12_mon</td>
+                    <td class="description-text">Number of inactive months in the last 12 months</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Contacts_Count_12_mon</td>
+                    <td class="description-text">Number of contacts with the bank in the last 12 months</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Credit_Limit</td>
+                    <td class="description-text">Credit limit on the card</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Total_Revolving_Bal</td>
+                    <td class="description-text">Balance carried on the card</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Avg_Open_To_Buy</td>
+                    <td class="description-text">Average available credit</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Total_Amt_Chng_Q4_Q1</td>
+                    <td class="description-text">Change in transaction amount (Q4 vs Q1)</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Total_Trans_Amt</td>
+                    <td class="description-text">Total transaction amount in the last 12 months</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Total_Trans_Ct</td>
+                    <td class="description-text">Total number of transactions in the last 12 months</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Total_Ct_Chng_Q4_Q1</td>
+                    <td class="description-text">Change in transaction count (Q4 vs Q1)</td>
+                </tr>
+                <tr>
+                    <td class="column-name">Avg_Utilization_Ratio</td>
+                    <td class="description-text">Average card utilization ratio</td>
+                </tr>
+            </tbody>
+        </table>
     
+    <!--End of Table-->
+      
     <h2>🔍 Project Highlights</h2>
     <ul>
     <li>  ✅ Data wrangling & cleaning in Python</li>
